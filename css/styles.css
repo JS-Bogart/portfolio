@@ -11496,7 +11496,14 @@ html {
   background-color: #1a252f;
 }
 
-.contact-info {
+.contact-info-wrap {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
